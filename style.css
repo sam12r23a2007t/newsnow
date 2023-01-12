@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    background-color: rgba(32, 32, 32, 0.692);
+    color: white;
+}
+.navbar a{
+    color: white;
+}
+.nav-item{
+    list-style: none;
+    margin: 2vw 4vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.r-nav{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.8vw;
+margin: 2vw;
+}
+.footer{
+    background-color: black;
+    opacity: 70%;
+    text-align: center;
+    padding: 0.86vw;
+}
+.ft{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2vw;
+}
+.lp img{
+    width: 10vw;
+    margin: 1.5vw;
+}
+.rp{
+    margin: 1.5vw;
+}
+.title{
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.desc{
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.news-item{
+    padding: 2.5vw;
+
+}
+.nimg{
+    width: 25vw;
+    margin: 1.5vw;
+}
+.rdata{
+    text-align: center;
+    margin: 1.5vw;
+}
+.news-title{
+    font-size: 4.5vw;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0.8vw;
+}
+.news-desc{
+    font-size: 1.8vw;
+    font-family:'Times New Roman', Times, serif;
+}
+.news-data{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.8vw;
+}
+@media only screen and (max-width:1200px) {
+    .lp{
+        display: none;
+    }
+    .rp{
+        text-align: center;
+    }
+    .title a{
+        font-size: 10vw;
+    }
+    .desc{
+        font-size: 6vw;
+    }
+    .flex{
+        display: block;
+    }
+    .r-nav{
+        display: none;
+    }
+    .ni{
+        font-size: 7vw;
+    }
+    .nd{
+        font-size: 7vw;
+    }
+    .centre{
+        text-align: center;
+    }
+    .nimg{
+        width: 100vw
+    }
+    .news-title{
+        font-size: 15vw;
+        margin: 4.5vw;
+    }
+    .news-desc{
+        font-size: 7vw;
+    }
+    .news-data{
+        font-size: 6vw;
+    }
+    .ft{
+        font-size: 7vw;
+    }
+}
